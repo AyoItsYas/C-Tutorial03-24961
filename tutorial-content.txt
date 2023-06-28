@@ -1,0 +1,57 @@
+Questions,
+    Q1. Write four different C statements that each add 1 to integer variable x.
+
+    Q2. Write a single C statement to accomplish each of the following:
+        a) Assign the sum of x and y to z and increment the value of x by 1 after the calculation.
+        b) Multiply the variable product by 2 using the *= operator.
+        c) Multiply the variable product by 2 using the = and * operators.
+        d)
+            Test if the value of the variable count is greater than 10. If it is,
+            print “Count is greater than 10.”
+        e) Decrement the variable x by 1, then subtract it from the variable total.
+        f) Add the variable x to the variable total, then decrement x by 1.
+        g)
+            Calculate the remainder after q is divided by divisor and assign the result to q.
+            Write this statement two different ways.
+        h) Print the value 123.4567 with 2 digits of precision. What value is printed?
+        i) Print the floating-point value 3.14159 with three digits to the right of the decimal point.
+
+        What value is printed?
+
+    Q3. Write single C statements that
+        a) Input integer variable x with scanf.
+        b) Input integer variable y with scanf.
+        c) Initialize integer variable i to 1.
+        d) Initialize integer variable power to 1.
+        e) Multiply variable power by x and assign the result to power.
+        f) Increment variable i by 1.
+        g) Test i to see if it’s less than or equal to y in the condition of a while statement.
+        h) Output integer variable power with printf.
+
+Answers,
+    Q1.
+        x = x + 1;
+        x += 1;
+        ++x;
+        x++;
+
+    Q2.
+        a) z = x + y; x++;
+        b) product *= 2;
+        c) product = product * 2;
+        d) if (count > 10) printf("Count is greater than 10.");
+        e) total -= --x;
+        f) total += x--;
+        g) q %= divisor;
+        h) printf("%.2f", 123.4567);
+        i) printf("%.3f", 3.14159);
+
+    Q3.
+        a) scanf("%d", &x);
+        b) scanf("%d", &y);
+        c) int i = 1;
+        d) int power = 1;
+        e) power *= x;
+        f) i++;
+        g) while (i <= y)
+        h) printf("%d", power);
